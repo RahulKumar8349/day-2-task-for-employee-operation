@@ -1,5 +1,9 @@
+package Questions;
+
+import Assignment.Employee;
+
 import java.util.*;
-class Q4
+public class Q4
 {
 	 public Optional<Employee> highestPaidEmployee(List<Employee> employeeList)
 	 {

@@ -1,5 +1,9 @@
+package Questions;
+
+import Assignment.Employee;
+
 import java.util.*;
-class Q9
+public class Q9
 {
 	 public HashMap<String,Long> howManyMaleAndFemaleEmployeeInSalesAndMarketingTeam(List<Employee> employeeList)
 	 {

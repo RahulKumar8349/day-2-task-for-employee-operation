@@ -1,5 +1,9 @@
+package Questions;
+
+import Assignment.Employee;
+
 import java.util.*;
-class Q3
+public class Q3
 {
 	 public HashMap<String,OptionalDouble> averageAgeOfMaleAndFemale(List<Employee> employeeList)
 	 {

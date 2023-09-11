@@ -1,9 +1,11 @@
-class Employee
+package Assignment;
+
+public class Employee
 {
     int id;
     String name;
     int age;
-    String gender;
+    public String gender;
     String department;
     int yearOfJoining;
     double salary;
@@ -50,5 +52,5 @@ class Employee
 	public double getSalary() {
         return salary;
     }
-	
+
 }

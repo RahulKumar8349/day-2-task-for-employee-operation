@@ -1,5 +1,9 @@
+package Questions;
+
+import Assignment.Employee;
+
 import java.util.*;
-class Q10
+public class Q10
 {
 	 public HashMap<String,Double> averageSalaryOfMaleAndFemale(List<Employee> employeeList)
 	 {

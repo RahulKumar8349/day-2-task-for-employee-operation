@@ -1,5 +1,9 @@
+package Questions;
+
+import Assignment.Employee;
+
 import java.util.*;
-class Q12
+public class Q12
 {
 	 public HashMap<String,Double> averageSalaryAndWholeSalaryOfOrganization(List<Employee> employeeList)
 	 {
