@@ -1,5 +1,4 @@
 import java.util.*;
-import java.util.stream.*;
 class Q12
 {
 	 public HashMap<String,Double> averageSalaryAndWholeSalaryOfOrganization(List<Employee> employeeList)

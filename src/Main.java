@@ -6,7 +6,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
-        List<Employee> employeeList = new ArrayList<Employee>();
+        List<Employee> employeeList = new ArrayList<>();
 
         employeeList.add(new Employee(111, "Jiya Brein", 32, "Female", "HR", 2011, 25000.0));
         employeeList.add(new Employee(122, "Paul Niksui", 25, "Male", "Sales And Marketing", 2015, 13500.0));
@@ -26,20 +26,46 @@ public class Main {
         employeeList.add(new Employee(266, "Sanvi Pandey", 26, "Female", "Product Development", 2015, 28900.0));
         employeeList.add(new Employee(277, "Anuj Chettiar", 31, "Male", "Product Development", 2012, 35700.0));
 
+        System.out.println("Q1 - How many male and female employees are there in the organization?\n");
         System.out.println(new Q1().getMaleAndFemaleCount(employeeList)+"\n\n");
+
+        System.out.println("Q2 - Print the name of all departments in the organization?\n\n");
         System.out.println(new Q2().printNameOfAllDepartment(employeeList)+"\n\n");
+
+        System.out.println("Q3 - What is the average age of male and female employees?\n\n");
         System.out.println(new Q3().averageAgeOfMaleAndFemale(employeeList)+"\n\n");
+
+        System.out.println("Q4 - Get the details of highest paid employee in the organization?\n\n");
         System.out.println(new Q4().highestPaidEmployee(employeeList)+"\n\n");
+
+        System.out.println("Q5 - Get the names of all employees who have joined after 2015?\n");
         System.out.println(new Q5().nameOfEmployeesJoinAfter2015(employeeList)+"\n\n");
+
+        System.out.println("Q6 - Count the number of employees in each department?\n\n");
         System.out.println(new Q6().countNumberOfEmpoyeeInEachDepartment(employeeList)+"\n\n");
+
+        System.out.println("Q7 - What is the average salary of each department?\n\n");
         System.out.println(new Q7().averageSalaryOfEachDepartment(employeeList)+"\n\n");
+
+        System.out.println("Q8 - Get the details of youngest male employee in the product development department?\n");
         System.out.println(new Q8().youngestMaleEmployeeInProductDevelopmentDepartment(employeeList)+"\n\n");
+
+        System.out.println("Q9 - How many male and female employees are there in the sales and marketing team?\n");
         System.out.println(new Q9().howManyMaleAndFemaleEmployeeInSalesAndMarketingTeam(employeeList)+"\n\n");
+
+        System.out.println("Q10 - What is the average salary of male and female employees?\n\n");
         System.out.println(new Q10().averageSalaryOfMaleAndFemale(employeeList)+"\n\n");
+
+        System.out.println("Q11 - List down the names of all employees in each department?\n\n");
         System.out.println(new Q11().nameOfEachEmployeeInEachDepartment(employeeList)+"\n\n");
+
+        System.out.println("Q12 - What is the average salary and total salary of the whole organization?\n");
         System.out.println(new Q12().averageSalaryAndWholeSalaryOfOrganization(employeeList)+"\n\n");
+
+        System.out.println("Q13 -  Separate the employees who are younger or equal to 25 years from those employees who are older than 25 years?\n");
         System.out.println(new Q13().employeeAgeLessThan26Year(employeeList)+"\n\n");
 
+        System.out.println("Q14 - Who is the oldest employee in the organization? What is his age and which department he belongs to?\n");
         Employee last=new Q14().oldestEmployeeWithAgeAndDepartment(employeeList);
         System.out.println(last.name + " "+ last.age + " "+last.department+"\n\n");
 

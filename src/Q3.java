@@ -1,5 +1,4 @@
 import java.util.*;
-import java.util.stream.*;
 class Q3
 {
 	 public HashMap<String,OptionalDouble> averageAgeOfMaleAndFemale(List<Employee> employeeList)

@@ -1,5 +1,4 @@
 import java.util.*;
-import java.util.stream.*;
 class Q9
 {
 	 public HashMap<String,Long> howManyMaleAndFemaleEmployeeInSalesAndMarketingTeam(List<Employee> employeeList)
